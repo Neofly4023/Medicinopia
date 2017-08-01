@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar" />
+    <RelativeLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TimePicker
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/timePicker1" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Besoin de transport ?"
+            android:layout_below="@+id/timePicker1"
+            android:textSize="20dp" />
+        <Button
+            android:text="Réserver"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/reserve"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app3="http://schemas.android.com/apk/res-auto">
+  
+  <item
+       android:id="@+id/menu_alert"
+       android:icon="@drawable/error"
+       android:title="Signaler"
+       app3:showAsAction="ifRoom"/>
+  <item
+       android:id="@+id/menu_rdv"
+       android:icon="@drawable/schedule"
+       android:title="RDV"
+       app3:showAsAction="ifRoom"/>
+  <item
+       android:id="@+id/menu_prelevement"
+       android:icon="@drawable/clipboard"
+       android:title="Prelever"
+       app3:showAsAction="ifRoom"/>
+</menu>
